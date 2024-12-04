@@ -8,14 +8,14 @@ import Logo from "../../Assets/logo.png";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="custom-navbar bg-dark fixed-top">
+    <Navbar expand="lg" className="custom-navbar bgcolor1 fixed-top">
       <Container fluid>
         <Navbar.Brand href="/" className="logo">
           <img src={Logo} alt="TaskPulse Logo" className="logo-img" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav className="ms-auto nav-links" navbarScroll>
+          <Nav className="ms-auto nav-links gap-item" navbarScroll>
             <ScrollLink
               to="home"
               smooth={true}

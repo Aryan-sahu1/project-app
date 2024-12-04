@@ -54,11 +54,9 @@ const Home = () => {
         <MiddleSection />
       </div>
       <Heading title="HERE IS TASK" />
-      <div className='container'>
+      <div className='container mb-5'>
         <div className='float'>
-          <div className="row">
-
-
+          <div className="row"> 
             <Task img={tasklist1} title="Data Scrapping" description={desc1} earning="40000" />
             <Task img={tasklist2} title="Store near me" description={desc2} earning="30000" />
             <Task img={tasklist3} title="Prompt Pairing" description={desc3} earning="30000" />

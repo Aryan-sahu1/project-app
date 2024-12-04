@@ -1,11 +1,13 @@
 
 .custom-navbar {
     background-color: #f8f9fa;
-    padding: 10px 20px;
+    padding: 3px 20px;
   }
-  
+  .bgcolor1{
+    background-color: #000000;
+  }
   .logo-img {
-    height: 80px;
+    height: 100px;
   }
   .navbar-light .navbar-toggler-icon {
     background-color: #fff !important;
@@ -22,3 +24,6 @@
   box-shadow: none !important;
 }
   
+.gap-item{
+  gap: 18px;
+}
