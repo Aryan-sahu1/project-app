@@ -24,7 +24,7 @@ const Home = () => {
     <div>
       <Header />
       <Slider />
-      <Heading title="WHAT WE DO ?" />
+      <Heading title="WHAT WE DO ?" id="services"/>
       <div className="container">
         <div className="row">
           {/* Pass props correctly */}
@@ -38,11 +38,9 @@ const Home = () => {
         <button type="button" class="btn btn-primary"> All Services </button>
         
         </div>
-
-      
       </div>
       <div className="bgwhite1">
-        <Heading title="WHY CHOOSE US ?" />
+        <Heading title="WHY CHOOSE US ?"/>
         <MiddleSection />
       </div>
       <Footer />

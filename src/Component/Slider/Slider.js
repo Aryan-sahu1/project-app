@@ -6,7 +6,7 @@ import SliderImg3 from "../../Assets/slider-img-3.jpeg";
 import SliderImg4 from "../../Assets/slider-img-4.jpeg";
 function IndividualIntervalsExample() {
   return (
-    <Carousel>
+    <Carousel id="home">
       <Carousel.Item interval={1000}>
         <img className="d-block w-100" src={SliderImg1} alt="First slide" />
       </Carousel.Item>
