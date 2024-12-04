@@ -1,6 +1,6 @@
 import React from 'react'
 import './MiddleSection.css'
-import network from '../../Image/network.png'
+import network from '../../Assets/network.png'
 const MiddleSection = () => {
   return (
     <>
