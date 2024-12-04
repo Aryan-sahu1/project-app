@@ -7,7 +7,7 @@ const Heading = ({title}) => {
         <div className="row">
           <div >
             <div className='heading'>
-              <h1 className='heading-title'>{title}</h1>
+              <h1 className='heading-title mt-4'>{title}</h1>
             </div>
             
           </div>
