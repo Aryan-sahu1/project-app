@@ -1,4 +1,18 @@
-.logo{
-    height: 100px;
-    padding-left: 20px;
+
+.custom-navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+  }
+  
+  .logo-img {
+    height: 80px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-color: #fff !important;
+    padding: 20px  !important;
+    border-radius: 5px;
+  }
+  .nav-links {
+    text-transform: uppercase !important;
 }
+  

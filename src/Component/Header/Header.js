@@ -1,68 +1,38 @@
-import React from 'react'
-import { Container } from "react-bootstrap";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import { useNavigate } from "react-router-dom";
-import Button from "react-bootstrap/Button";
-import Logo from '../../Image/logo.png'
-import './Header.css'
-const Header = () => {
-    const Navigate = useNavigate();
-    const About = (item) => {
-      Navigate(item);
-    };
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import "./Header.css";
+import Logo from "../../Assets/logo.png"
+
+function NavScrollExample() {
   return (
-    <>
-        
-    <div className=" navrelative">
-      <Navbar expand="lg navbarcolor">
-        <Container>
-          <Navbar.Brand href="./" >
-            <img src={Logo} className='logo' />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link to="#" onClick={() => About("./")} className="navhover">
-                Home
-              </Nav.Link>
-              <Nav.Link
-                to="#"
-                onClick={() => About("./About")}
-                className="navhover"
-              >
-                About
-              </Nav.Link>
-              <Nav.Link
-                to="#"
-                onClick={() => About("./Services")}
-                className="navhover"
-              >
-                Services
-              </Nav.Link>
-              <Nav.Link
-                to="#"
-                onClick={() => About("./Contact")}
-                className="navhover"
-              >
-                Contact
-              </Nav.Link>
-              <div className="center">
-                <Button variant="primary btn-num">202-555-0188</Button>
-              </div>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
- 
-
-
-
-
-
-    </>
-  )
+    <Navbar expand="lg" className="custom-navbar bg-dark">
+      <Container fluid>
+        <Navbar.Brand href="/" className="logo">
+          <img 
+            src={Logo} 
+            alt="TaskPulse Logo" 
+            className="logo-img"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="ms-auto nav-links"
+            navbarScroll
+          >
+            <Nav.Link href="/" className="text-light">Home</Nav.Link>
+            <Nav.Link href="/services" className="text-light">Services</Nav.Link>
+            <Nav.Link href="/about" className="text-light">About us</Nav.Link>
+            <Nav.Link href="/about" className="text-light">Task List</Nav.Link>
+            <Nav.Link href="/about" className="text-light">Testimonials</Nav.Link>
+            <Nav.Link href="/contact" className="text-light">Contact us</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Header
+export default NavScrollExample;
