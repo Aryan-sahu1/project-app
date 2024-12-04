@@ -5,12 +5,10 @@
 .logoFooter {
   width: 25%;
 }
-
 .logo-footer {
   max-width: 150px;
   height: auto;
 }
-
 .footer-description {
   font-size: 17px;
   line-height: 1.6;
@@ -22,7 +20,7 @@
   color: #fff;
   cursor: pointer !important;
 }
-.bgColor{
-    background-color: #000 !important;
-    color: #fff !important;
+.bgColor {
+  background-color: #000 !important;
+  color: #fff !important;
 }
