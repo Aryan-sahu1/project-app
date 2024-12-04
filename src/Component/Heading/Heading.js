@@ -1,9 +1,18 @@
 import React from 'react'
 import './Heading.css'
-const Heading = () => {
+const Heading = ({title}) => {
   return (
     <>
-      
+      <div className="container">
+        <div className="row">
+          <div >
+            <div className='heading'>
+              <h1 className='heading-title'>{title}</h1>
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </>
   )
 }
