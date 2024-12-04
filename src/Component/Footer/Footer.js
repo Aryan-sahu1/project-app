@@ -13,8 +13,7 @@ const Footer = () => {
           <MDBCol lg="6" md="12" className="mb-4">
             <img src={Logo} alt="Taskpules Logo" className="logo-footer mb-3" />
             <p className="footer-description">
-              We are dedicated to providing excellent services to our clients.
-              Let us help you achieve your goals.
+            The TaskPulse empowers SMBs with tailored solutions and expert services to drive success and innovation.
             </p>
           </MDBCol>
 
