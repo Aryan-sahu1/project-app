@@ -10,7 +10,6 @@ const SideSection = ({ img, heading, title }) => {
             <img src={img} alt="Service" className="side-section-img" />
             <h4>{title}</h4> {/* Use the title prop */}
             <p>{heading}</p> {/* Use the heading prop */}
-           
           </div>
         </div>
       </div>

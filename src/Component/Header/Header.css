@@ -14,5 +14,10 @@
   }
   .nav-links {
     text-transform: uppercase !important;
+    font-weight: 500 !important;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
   
