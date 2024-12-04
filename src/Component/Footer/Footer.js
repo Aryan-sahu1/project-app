@@ -6,8 +6,13 @@ import Logo from "../../Assets/logo.png";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <MDBFooter className=" text-lg-start bgColor p-0">
       <MDBContainer className="p-4">
+=======
+    <MDBFooter className=" text-lg-start bgColor">
+      <MDBContainer className="p-3">
+>>>>>>> fc76d59c829c5e0a7727bfa7493373f228bb726a
         <MDBRow>
           {/* Logo and Description Section */}
           <MDBCol lg="6" md="12" className="mb-4">
